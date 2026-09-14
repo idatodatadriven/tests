@@ -1,0 +1,23 @@
+{
+	"name": "adftest20250731",
+	"properties": {
+		"globalConfigurations": {
+			"mountedConfiguration": [
+				{
+					"workspaceId": "b1ac7bea-6b12-437f-8235-f659d6cf4050",
+					"artifactId": "6dbe7a2b-6e1e-4c3c-9496-3003c0c3fdc2"
+				}
+			]
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea0e34a4-b575-41e9-bca4-c0f3754fad3f",
+		"tenantId": "51af8082-8fd3-4b65-9291-6fa90b36497d"
+	}
+}

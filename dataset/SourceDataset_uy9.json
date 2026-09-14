@@ -1,0 +1,112 @@
+{
+	"name": "SourceDataset_uy9",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "time",
+				"type": "String"
+			},
+			{
+				"name": "latitude",
+				"type": "String"
+			},
+			{
+				"name": "longitude",
+				"type": "String"
+			},
+			{
+				"name": "depth",
+				"type": "String"
+			},
+			{
+				"name": "mag",
+				"type": "String"
+			},
+			{
+				"name": "magType",
+				"type": "String"
+			},
+			{
+				"name": "nst",
+				"type": "String"
+			},
+			{
+				"name": "gap",
+				"type": "String"
+			},
+			{
+				"name": "dmin",
+				"type": "String"
+			},
+			{
+				"name": "rms",
+				"type": "String"
+			},
+			{
+				"name": "net",
+				"type": "String"
+			},
+			{
+				"name": "id",
+				"type": "String"
+			},
+			{
+				"name": "updated",
+				"type": "String"
+			},
+			{
+				"name": "place",
+				"type": "String"
+			},
+			{
+				"name": "type",
+				"type": "String"
+			},
+			{
+				"name": "horizontalError",
+				"type": "String"
+			},
+			{
+				"name": "depthError",
+				"type": "String"
+			},
+			{
+				"name": "magError",
+				"type": "String"
+			},
+			{
+				"name": "magNst",
+				"type": "String"
+			},
+			{
+				"name": "status",
+				"type": "String"
+			},
+			{
+				"name": "locationSource",
+				"type": "String"
+			},
+			{
+				"name": "magSource",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
